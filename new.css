@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.taskbar{
+  background-color:orange;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+ 
+.links ul li{ 
+  list-style: none;
+  display: inline-block;
+  padding: 30px;
+  padding-bottom: 5px;
+  
+}
+
+h1{
+  font-size: 40px;
+  color: rgb(84, 18, 18);
+}
+
+.links ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bold;
+  
+}
+input{
+  
+  height: 25px;
+  width: 200px;
+}
+
+button{
+  background-color: rgb(227, 91, 91);
+  font-weight: bold;
+  color: white;
+  
+  border:3px solid black;
+  width: 70px;
+  height: 25px;
+}
